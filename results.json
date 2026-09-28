@@ -1,0 +1,322 @@
+{
+  "bucharest": {
+    "iasi": {
+      "distance_km": 390.0,
+      "time_min": 360.0
+    },
+    "cluj_napoca": {
+      "distance_km": 445.0,
+      "time_min": 390.0
+    },
+    "timisoara": {
+      "distance_km": 550.0,
+      "time_min": 450.0
+    },
+    "sofia": {
+      "distance_km": 385.0,
+      "time_min": 330.0
+    },
+    "varna": {
+      "distance_km": 270.0,
+      "time_min": 250.0
+    },
+    "belgrade": {
+      "distance_km": 600.0,
+      "time_min": 540.0
+    },
+    "budapest": {
+      "distance_km": 835.0,
+      "time_min": 510.0
+    }
+  },
+  "rome": {
+    "ljubljana": {
+      "distance_km": 755.0,
+      "time_min": 450.0
+    },
+    "naples": {
+      "distance_km": 225.0,
+      "time_min": 145.0
+    },
+    "bari": {
+      "distance_km": 430.0,
+      "time_min": 285.0
+    }
+  },
+  "vienna": {
+    "budapest": {
+      "distance_km": 243.0,
+      "time_min": 160.0
+    },
+    "bratislava": {
+      "distance_km": 80.0,
+      "time_min": 60.0
+    },
+    "ljubljana": {
+      "distance_km": 385.0,
+      "time_min": 235.0
+    }
+  },
+  "budapest": {
+    "bucharest": {
+      "distance_km": 835.0,
+      "time_min": 510.0
+    },
+    "cluj_napoca": {
+      "distance_km": 460.0,
+      "time_min": 360.0
+    },
+    "timisoara": {
+      "distance_km": 320.0,
+      "time_min": 240.0
+    },
+    "vienna": {
+      "distance_km": 243.0,
+      "time_min": 160.0
+    },
+    "bratislava": {
+      "distance_km": 200.0,
+      "time_min": 130.0
+    },
+    "zagreb": {
+      "distance_km": 345.0,
+      "time_min": 230.0
+    },
+    "ljubljana": {
+      "distance_km": 465.0,
+      "time_min": 270.0
+    }
+  },
+  "athens": {
+    "thessaloniki": {
+      "distance_km": 500.0,
+      "time_min": 315.0
+    }
+  },
+  "belgrade": {
+    "bucharest": {
+      "distance_km": 600.0,
+      "time_min": 540.0
+    },
+    "timisoara": {
+      "distance_km": 170.0,
+      "time_min": 150.0
+    },
+    "zagreb": {
+      "distance_km": 390.0,
+      "time_min": 330.0
+    },
+    "sarajevo": {
+      "distance_km": 295.0,
+      "time_min": 290.0
+    },
+    "skopje": {
+      "distance_km": 435.0,
+      "time_min": 280.0
+    },
+    "sofia": {
+      "distance_km": 395.0,
+      "time_min": 285.0
+    }
+  },
+  "sofia": {
+    "bucharest": {
+      "distance_km": 385.0,
+      "time_min": 330.0
+    },
+    "belgrade": {
+      "distance_km": 395.0,
+      "time_min": 285.0
+    },
+    "skopje": {
+      "distance_km": 245.0,
+      "time_min": 215.0
+    },
+    "thessaloniki": {
+      "distance_km": 300.0,
+      "time_min": 230.0
+    },
+    "plovdiv": {
+      "distance_km": 145.0,
+      "time_min": 110.0
+    }
+  },
+  "naples": {
+    "bari": {
+      "distance_km": 265.0,
+      "time_min": 180.0
+    },
+    "rome": {
+      "distance_km": 225.0,
+      "time_min": 145.0
+    }
+  },
+  "zagreb": {
+    "budapest": {
+      "distance_km": 345.0,
+      "time_min": 230.0
+    },
+    "ljubljana": {
+      "distance_km": 140.0,
+      "time_min": 100.0
+    },
+    "belgrade": {
+      "distance_km": 390.0,
+      "time_min": 330.0
+    },
+    "sarajevo": {
+      "distance_km": 400.0,
+      "time_min": 320.0
+    }
+  },
+  "thessaloniki": {
+    "sofia": {
+      "distance_km": 300.0,
+      "time_min": 230.0
+    },
+    "skopje": {
+      "distance_km": 235.0,
+      "time_min": 170.0
+    },
+    "athens": {
+      "distance_km": 500.0,
+      "time_min": 315.0
+    }
+  },
+  "bratislava": {
+    "budapest": {
+      "distance_km": 200.0,
+      "time_min": 130.0
+    },
+    "vienna": {
+      "distance_km": 80.0,
+      "time_min": 60.0
+    }
+  },
+  "skopje": {
+    "belgrade": {
+      "distance_km": 435.0,
+      "time_min": 280.0
+    },
+    "sofia": {
+      "distance_km": 245.0,
+      "time_min": 215.0
+    },
+    "thessaloniki": {
+      "distance_km": 235.0,
+      "time_min": 170.0
+    }
+  },
+  "sarajevo": {
+    "belgrade": {
+      "distance_km": 295.0,
+      "time_min": 290.0
+    },
+    "zagreb": {
+      "distance_km": 400.0,
+      "time_min": 320.0
+    }
+  },
+  "cluj_napoca": {
+    "bucharest": {
+      "distance_km": 445.0,
+      "time_min": 390.0
+    },
+    "iasi": {
+      "distance_km": 390.0,
+      "time_min": 360.0
+    },
+    "budapest": {
+      "distance_km": 460.0,
+      "time_min": 360.0
+    },
+    "timisoara": {
+      "distance_km": 320.0,
+      "time_min": 300.0
+    }
+  },
+  "timisoara": {
+    "bucharest": {
+      "distance_km": 550.0,
+      "time_min": 450.0
+    },
+    "cluj_napoca": {
+      "distance_km": 320.0,
+      "time_min": 300.0
+    },
+    "budapest": {
+      "distance_km": 320.0,
+      "time_min": 240.0
+    },
+    "belgrade": {
+      "distance_km": 170.0,
+      "time_min": 150.0
+    }
+  },
+  "iasi": {
+    "bucharest": {
+      "distance_km": 390.0,
+      "time_min": 360.0
+    },
+    "cluj_napoca": {
+      "distance_km": 390.0,
+      "time_min": 360.0
+    }
+  },
+  "bari": {
+    "ljubljana": {
+      "distance_km": 790.0,
+      "time_min": 510.0
+    },
+    "naples": {
+      "distance_km": 265.0,
+      "time_min": 180.0
+    },
+    "rome": {
+      "distance_km": 430.0,
+      "time_min": 285.0
+    }
+  },
+  "varna": {
+    "bucharest": {
+      "distance_km": 270.0,
+      "time_min": 250.0
+    },
+    "plovdiv": {
+      "distance_km": 365.0,
+      "time_min": 270.0
+    }
+  },
+  "ljubljana": {
+    "budapest": {
+      "distance_km": 465.0,
+      "time_min": 270.0
+    },
+    "vienna": {
+      "distance_km": 385.0,
+      "time_min": 235.0
+    },
+    "zagreb": {
+      "distance_km": 140.0,
+      "time_min": 100.0
+    },
+    "rome": {
+      "distance_km": 755.0,
+      "time_min": 450.0
+    },
+    "bari": {
+      "distance_km": 790.0,
+      "time_min": 510.0
+    }
+  },
+  "plovdiv": {
+    "sofia": {
+      "distance_km": 145.0,
+      "time_min": 110.0
+    },
+    "varna": {
+      "distance_km": 365.0,
+      "time_min": 270.0
+    }
+  }
+}

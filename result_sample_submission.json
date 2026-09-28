@@ -1,0 +1,223 @@
+{
+  "problem": {
+    "start": "bucharest",
+    "goal": "rome",
+    "number_of_cities": 20,
+    "number_of_connections": 35
+  },
+  "search": {
+    "bfs": {
+      "algorithm": "bfs",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "sofia",
+          "zagreb",
+          "rome"
+        ],
+        "path_length": 3,
+        "distance_km": 2140.0,
+        "time_min": 1315.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 8,
+        "generated_nodes": 13,
+        "max_frontier_size": 6,
+        "expanded_order": [
+          "bucharest",
+          "belgrade",
+          "sofia",
+          "timisoara",
+          "budapest",
+          "varna",
+          "zagreb",
+          "ljubljana"
+        ]
+      }
+    },
+    "dfs": {
+      "algorithm": "dfs",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "sofia",
+          "skopje",
+          "athens",
+          "bari",
+          "rome"
+        ],
+        "path_length": 5,
+        "distance_km": 2360.0,
+        "time_min": 1540.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 7,
+        "generated_nodes": 11,
+        "max_frontier_size": 5,
+        "expanded_order": [
+          "bucharest",
+          "sofia",
+          "skopje",
+          "athens",
+          "thessaloniki",
+          "bari",
+          "naples"
+        ]
+      }
+    },
+    "ucs_distance": {
+      "algorithm": "ucs_distance_km",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "timisoara",
+          "budapest",
+          "vienna",
+          "rome"
+        ],
+        "path_length": 4,
+        "distance_km": 1975.0,
+        "time_min": 1370.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 12,
+        "generated_nodes": 16,
+        "max_frontier_size": 7,
+        "expanded_order": [
+          "bucharest",
+          "varna",
+          "sofia",
+          "iasi",
+          "timisoara",
+          "cluj_napoca",
+          "belgrade",
+          "budapest",
+          "skopje",
+          "sarajevo",
+          "zagreb",
+          "vienna"
+        ]
+      }
+    },
+    "astar_distance": {
+      "algorithm": "astar_distance_km",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "belgrade",
+          "budapest",
+          "vienna",
+          "rome"
+        ],
+        "path_length": 4,
+        "distance_km": 1910.0,
+        "time_min": 1395.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 9,
+        "generated_nodes": 14,
+        "max_frontier_size": 6,
+        "expanded_order": [
+          "bucharest",
+          "sofia",
+          "belgrade",
+          "timisoara",
+          "budapest",
+          "zagreb",
+          "sarajevo",
+          "vienna",
+          "ljubljana"
+        ]
+      }
+    },
+    "ucs_time": {
+      "algorithm": "ucs_time_min",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "timisoara",
+          "budapest",
+          "ljubljana",
+          "rome"
+        ],
+        "path_length": 4,
+        "distance_km": 2010.0,
+        "time_min": 1265.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 11,
+        "generated_nodes": 15,
+        "max_frontier_size": 7,
+        "expanded_order": [
+          "bucharest",
+          "varna",
+          "sofia",
+          "timisoara",
+          "iasi",
+          "cluj_napoca",
+          "budapest",
+          "belgrade",
+          "skopje",
+          "zagreb",
+          "ljubljana"
+        ]
+      }
+    },
+    "astar_time": {
+      "algorithm": "astar_time_min",
+      "solution": {
+        "found": true,
+        "path": [
+          "bucharest",
+          "sofia",
+          "belgrade",
+          "ljubljana",
+          "rome"
+        ],
+        "path_length": 4,
+        "distance_km": 1990.0,
+        "time_min": 1250.0
+      },
+      "diagnostics": {
+        "expanded_nodes": 8,
+        "generated_nodes": 12,
+        "max_frontier_size": 6,
+        "expanded_order": [
+          "bucharest",
+          "sofia",
+          "timisoara",
+          "belgrade",
+          "budapest",
+          "zagreb",
+          "ljubljana",
+          "vienna"
+        ]
+      }
+    }
+  },
+  "heuristics": {
+    "distance": {
+      "admissible": true,
+      "consistent": false,
+      "maximum_overestimate": 0.0,
+      "maximum_consistency_violation": 12.75
+    },
+    "time": {
+      "admissible": false,
+      "consistent": false,
+      "maximum_overestimate": 8.5,
+      "maximum_consistency_violation": 6.25,
+      "maximum_network_speed_kmh": 98.4
+    }
+  },
+  "validation": {
+    "all_paths_valid": false,
+    "ucs_astar_same_distance_cost": false,
+    "ucs_astar_same_time_cost": false
+  }
+}
